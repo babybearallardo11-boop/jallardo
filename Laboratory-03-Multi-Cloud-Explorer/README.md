@@ -1,92 +1,44 @@
+# ☁️ Lab Activity 03: Multi-Cloud Explorer & Server Audit
 
-# ☁️ Mission 3 – Become a Multi-Cloud Explorer
-
-## 🌎 Mission Overview
-
-Congratulations! 🎉
-
-Your successful completion of the **Cloud Infrastructure Assessment** has earned you a promotion to the **Cloud Evaluation Team at CloudNova Technologies**.
-
-A new client plans to migrate its existing IT infrastructure to the cloud. However, the client is unsure whether to adopt **Amazon Web Services (AWS), Microsoft Azure, or Google Cloud Platform (GCP)**.
-
-As part of the Cloud Evaluation Team, your mission is to explore the world's leading cloud platforms, compare their services, and recommend the most appropriate provider for different business scenarios. ☁️💻
+Documentation for Mission 3 as part of the Cloud Evaluation Team at CloudNova Technologies. This repo contains our provider comparison work and basic Linux host inspection notes. 🚀
 
 ---
 
-## 🎯 Mission Objectives
+## 🎯 Lab Goals
 
-At the end of this laboratory activity, you should be able to:
-
-- ☁️ Explore the major public cloud platforms.
-- 🔍 Identify the core services offered by AWS, Microsoft Azure, and Google Cloud Platform.
-- 📊 Compare cloud services across different providers.
-- 💼 Analyze business requirements and recommend appropriate cloud solutions.
-- 📝 Create professional technical documentation using Markdown.
-- 📂 Continue developing a well-organized GitHub Cloud Computing Portfolio.
+- ☁️ Explore the core feature sets of AWS, Microsoft Azure, and GCP.
+- 📊 Map out equivalent cloud services across providers for client recommendations.
+- 🐧 Inspect system hardware and resources on a remote Linux playground.
+- 📝 Build clean Markdown documentation for our GitHub portfolio.
 
 ---
 
-# 🔎 Checkpoint 7 – Continue Your Linux Investigation
+## 🔍 Linux System Inspection (KillerCoda)
 
-## 🐧 Linux Investigation
+Ran diagnostic commands inside the KillerCoda terminal environment to gather host specs before doing provider evaluations. 
 
-A **KillerCoda Playground** was launched to investigate the Linux environment. Linux commands were used to identify the operating system, CPU information, memory, and disk space. 💻
+### 🖥️ System Specs Summary
 
----
-
-## 🖥️ Operating System
-
-The Linux environment is running:
-
-- 🐧 **Operating System:** Ubuntu 24.04.4 LTS
-- 🏷️ **Codename:** Noble
-- ⚙️ **Kernel:** 6.8.0-138-generic
+| Feature | Details / Output |
+| :--- | :--- |
+| **OS & Kernel** 🐧 | Ubuntu 24.04.4 LTS (Noble) • `6.8.0-138-generic` |
+| **Processor** ⚙️ | Intel Xeon E312xx (Sandy Bridge) @ 2.0GHz (1 vCPU, `x86_64`) |
+| **RAM Space** 🧠 | 1.9 GiB total (`1.4 GiB` available, `453 MiB` used) • 1.0 GiB Swap |
+| **Storage** 💾 | `/dev/vda1` root partition (~19 GB capacity) |
 
 ---
 
-## 🧠 CPU Information
-
-The Linux server uses:
-
-- 🏗️ **Architecture:** x86_64
-- 🔢 **CPU(s):** 1
-- 🟢 **On-line CPU(s) list:** 0
-- 💻 **Model name:** Intel Xeon E312xx (Sandy Bridge, IBRS update)
-- 🖥️ **BIOS Model name:** RHEL-9.6.0 PC (Q35 + ICH9, 2009) CPU @ 2.0GHz
-- 🔢 **NUMA node0 CPU(s):** 0
-
----
-
-## 💾 Memory
-
-The Linux environment has approximately:
-
-- 💽 **Total RAM:** 1.9 GiB
-- 🔴 **Used Memory:** 453 MiB
-- 🟢 **Free Memory:** 747 MiB
-- 🔵 **Available Memory:** 1.4 GiB
-- 🔄 **Swap:** 1.0 GiB
-
----
-
-## 💿 Disk Space
-
-The main disk is:
-
-- 💾 **Device:** `/dev/vda1`
-- 📦 **Total Capacity:** approximately 19 GB
-
----
-
-## ⌨️ Commands Used
-
-The following Linux commands were used to investigate the environment:
+## 🛠️ Commands Executed
 
 ```bash
+# Check Linux OS release info
 cat /etc/os-release
 
+# Filter CPU details
 lscpu | grep -E 'Model name|CPU\(s\)|Architecture'
 
+# Inspect current RAM usage
 free -h
 
+# Check root partition disk space
 df -h /
