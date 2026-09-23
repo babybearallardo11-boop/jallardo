@@ -44,15 +44,16 @@ Using the **KillerCoda** interactive Linux playground, this activity walks throu
 
 ### Checkpoint A: Environment Verification
 > Confirmed Docker daemon operational status inside KillerCoda.
-![Docker Version](screenshots/docker-version.png)
+![Docker Version](screenshots/checkpoint3-docker-version1.png)
+![Docker Version](screenshots/checkpoint3-docker-version2.png)
 
 ### Checkpoint B: Nginx Container Deployment
 > Successfully deployed container and fetched HTTP response via local `curl`.
-![Nginx Running](screenshots/nginx-running.png)
+![Nginx Running](screenshots/checkpoint4-nginx-running.png)
 
 ### Checkpoint C: Lifecycle Management
 > Executed container lifecycle state transitions (list, stop, audit, remove).
-![Container Lifecycle](screenshots/container-lifecycle.png)
+![Container Lifecycle](screenshots/checkpoint5-container-lifecycle.png)
 
 ---
 
