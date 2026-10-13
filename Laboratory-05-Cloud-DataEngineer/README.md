@@ -32,6 +32,7 @@ At the end of this laboratory activity, you should be able to:
 - **Web Browser** - Used to access the MinIO console.
 - **Terminal or Command Prompt** - Used to execute Docker commands.
 - **Markdown** - Used to document the deployment and laboratory results.
+- **KillerCoda** – Ubuntu playground for running commands.
 
 ## Skills Learned
 
