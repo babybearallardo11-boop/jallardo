@@ -1,4 +1,4 @@
-# Checkpoint 2 – Research: Types of Cloud Storage
+# Research: Types of Cloud Storage
 
 ## Introduction
 
