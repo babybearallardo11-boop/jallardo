@@ -1,27 +1,10 @@
+# CCM101 Cloud Computing Portfolio
 
-# CCM101 Cloud Computing Laboratory
+## Laboratory Activities
 
-Welcome to my **CCM101 – Cloud Computing Laboratory** repository.
-
-This repository contains my laboratory activities, exercises, documentation, and outputs completed throughout the course.
-
-## Student Information
-
-* **Name:** Jhon Carlo C. Allardo
-* **Course:** Bachelor of Science in Information Technology (BSIT)
-* **Subject:** CCM101 – Cloud Computing
-
-## Repository Contents
-
-This repository includes:
-
-* Linux laboratory activities
-* Cloud computing exercises
-* Linux command outputs
-* System information
-* Markdown documentation
-* Reflections and learning outcomes
-
-## Purpose
-
-This repository serves as my portfolio for **CCM101 Cloud Computing**, showcasing the skills and knowledge I developed through hands-on laboratory activities involving Linux, cloud environments, and GitHub.
+1. Laboratory 01 - Welcome to the Cloud
+2. Laboratory 02 - Build the Cloud Infrastructure Blueprint
+3. Laboratory 03 - Multi-Cloud Explorer
+4. Laboratory 04 - Cloud-Native Engineer
+5. Laboratory 05 - Cloud Data Engineer
+6. Laboratory 06 - Cloud Deployment Engineer
