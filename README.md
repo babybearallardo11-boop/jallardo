@@ -49,7 +49,7 @@ Each laboratory represents a different stage of my cloud computing journey.
 | `06` | [Cloud Deployment Engineer](Laboratory-06-Cloud-Deployment-Engineer/) | Docker Compose, Nextcloud, and MariaDB | 🟢* |
 | `07` | [Cloud Operations Engineer](Laboratory-07-Cloud-Operations-Engineer/) | System monitoring, Nginx, logs, and metrics | 🟢* |
 | `08` | [Cloud Security Engineer](Laboratory-08-Cloud-Security-Engineer/) | Firewall rules and access control | 🟢* |
-| `09` | [Cloud Automation Engineer](Laboratory-09-Cloud-Automation-Engineer/) | Bash scripts, backups, and cron jobs | ⚪ |
+| `09` | [Cloud Automation Engineer](Laboratory-09-Cloud-Automation-Engineer/) | Bash scripts, backups, and cron jobs | 🟢* |
 
 **Status key:** 🟢 Completed · 🟡 In Progress · ⚪ Not Started
 
