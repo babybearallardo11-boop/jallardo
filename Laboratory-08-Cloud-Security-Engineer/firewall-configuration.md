@@ -1,4 +1,4 @@
-# Firewall Configuration Documentation
+# FIREWALL CONFIGURATION
 
 ## Mission 08 – The Cloud Security Engineer
 
